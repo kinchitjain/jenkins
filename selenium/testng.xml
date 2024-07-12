@@ -1,0 +1,10 @@
+<suite name="allSuites">
+    <suite-files>
+        <suite-file path="suite1.xml" />
+        <suite-file path="suite2.xml" />
+        <suite-file path="suite3.xml" />
+
+
+    </suite-files>
+</suite>
+

@@ -1,0 +1,24 @@
+userName: kinchitjain_r0AfPS
+accessKey: ayzNLR1Vq1XMpSxzXPU5
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 116.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Chrome
+    browserVersion: 116.0
+parallelsPerPlatform: 1
+browserstackLocal: true
+buildName: bstack-demo
+buildIdentifier: ${BUILD_NUMBER}
+projectName: selenium
+testObservability: true
+networkLogs: true
+consoleLogs: info
+percy: false
+percyCaptureMode: auto
+acceptInsecureCerts: true
+seleniumVersion: 4.21.0
